@@ -1,1 +1,17 @@
 
+1. **Observer Pattern** is one of the **behavioral design patterns.**
+
+2. The Observer Design Pattern is a behavioral design pattern that defines a one-to-many dependency between objects. When one object (the subject) changes state, all its dependents (observers) are notified and updated automatically.
+
+3. An observer design pattern is useful when you are interested in the state of an object and want to get notified whenever there is any change.
+
+4. In the observer pattern, the object that watch on the state of another object are called **Observer** and the object that is being watched is called **Subject**.
+
+5. **Subject** contains a list of observers to notify of any change in it’s state, so it should provide methods using which observers can register and unregister themselves.
+
+6. Java provides inbuilt platform for implementing Observer pattern through *java.util.Observable* class and *java.util.Observer* interface.
+
+7. Observer design pattern is also called as publish-subscribe pattern. Some of it’s implementations are;
+    - java.util.EventListener in Swing
+    - javax.servlet.http.HttpSessionBindingListener
+    - javax.servlet.http.HttpSessionAttributeListener
